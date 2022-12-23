@@ -27,7 +27,8 @@ Analisa : <br />
 Dari contoh daiatas ESP32 dapat digunakan sebagai Touch Sensor dimana saat kabel jumper disentuh maka akan menghasilkan data pada serial plotter seperti pada video diatas. Ketika sensor(kabel) tidak disentuh nilai pada serial plotter akan tinggi sedangkan saat sensor(kabel) disentuh maka serial plotter akan rendah
 
 **Kemudian Buatlah Rangkaian dibawah ini** <br />
-![image](https://user-images.githubusercontent.com/41616849/209115047-caf5c1ad-eff1-460f-a123-e68a182a7acd.png)  <br />
+![rangkaian1](https://user-images.githubusercontent.com/121251478/209268393-dfbf6276-c088-42fc-bb0a-81aa679456a3.png)
+<br />
 
 **Keluaran** <br />
 a) Lampu LED On saat disentuh dan Off saat tidak disentuh <br />
@@ -68,7 +69,8 @@ Pada percobaan ini program diubah sehingga ketika sensor disentuh maka LED akan 
 
 **2) DHT 11 Sensor** <br />
 Pada Percobaan kali ini digunakan sensor suhu dan kelembapan DHT 11 yang dapat menghasilkan data sehingga dapat disimpan pada ESP32. Untuk rangkaiannya seperti ini <br />
-![image](https://user-images.githubusercontent.com/41616849/209120548-e0bac69c-7d9b-4002-87f5-0a7e16526ae0.png) <br />
+![rangkaian2](https://user-images.githubusercontent.com/121251478/209268461-f4c80920-d443-4e8c-ac54-d66377b2a4c1.png)
+<br />
 rangkaian diatas kemudian ditambah buzzer yang akan menyala saat sensor membaca suhu 30 derajat celcius dan 3 buah LED yang akan menyala running saat suhu dibawah 30 derajat celcius <br />
 
 
@@ -82,12 +84,13 @@ Dengan data yang didapat sensor DHT 11 kita dapat membuat program dengan untuk m
 
 **Buatlah rangkaian seperti berikut**
 
-![image](https://user-images.githubusercontent.com/41616849/209123901-b261bf28-8be5-443a-aadf-cb393fa20e94.png)
+
+![rangkaian3](https://user-images.githubusercontent.com/121251478/209268482-66693de2-931e-477d-a94c-2f8bbcf69486.png)
 
 
 Keluaran 
 
-![image](https://user-images.githubusercontent.com/41616849/209123721-e27870b9-23ab-4e33-afd5-f146bd19903d.png)
+![keluaran](https://user-images.githubusercontent.com/121251478/209268495-bbcca170-46a8-4be8-9f27-8ff71e120e6d.png)
 
 
 **Kondisi apabila Tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”**
