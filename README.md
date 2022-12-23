@@ -17,7 +17,11 @@ ESP32 adalah nama dari mikrokontroler yang dirancang oleh perusahaan yang berbas
 
 **Contoh**
 
-https://user-images.githubusercontent.com/121251478/209265768-ea191d2f-6554-4676-b204-a2470e2f6ecc.mp4
+
+
+https://user-images.githubusercontent.com/121251478/209267521-7a3cf69d-dfaf-4957-8ee5-8cb092198c56.mp4
+
+
 
 Analisa : <br />
 Dari contoh daiatas ESP32 dapat digunakan sebagai Touch Sensor dimana saat kabel jumper disentuh maka akan menghasilkan data pada serial plotter seperti pada video diatas. Ketika sensor(kabel) tidak disentuh nilai pada serial plotter akan tinggi sedangkan saat sensor(kabel) disentuh maka serial plotter akan rendah
@@ -29,8 +33,7 @@ Dari contoh daiatas ESP32 dapat digunakan sebagai Touch Sensor dimana saat kabel
 a) Lampu LED On saat disentuh dan Off saat tidak disentuh <br />
 
 
-https://user-images.githubusercontent.com/121251478/209265860-a2643655-d566-4e66-b180-649515b41937.mp4
-
+https://user-images.githubusercontent.com/121251478/209267706-164b2cad-2277-41c5-8830-8a242d27ddd4.mp4
 
 
 Analisa : <br />
@@ -39,7 +42,7 @@ Dari data contoh diatas kita dapat implementasikan nilai serial plotter untuk me
 b) Lampu LED akan menyala Blink saat disentuh <br />
 
 
-https://user-images.githubusercontent.com/121251478/209265892-10149b46-f436-4bfc-b561-988f854591ae.mp4
+https://user-images.githubusercontent.com/121251478/209267750-514fdc03-617f-439f-8576-a2a431fde218.mp4
 
 
 Analisa : <br />
@@ -48,7 +51,7 @@ Untuk percobaan kali ini masih mengimplementasikan hasil serial plotter hanya sa
 c) Ketika LED menyala Serial Monitor akan menampilkan angka yang bertambah tiap kali sensor disntuh <br />
 
 
-https://user-images.githubusercontent.com/121251478/209265917-632c3872-86b4-4944-93d0-c0514e0f9685.mp4
+https://user-images.githubusercontent.com/121251478/209267789-60e9ad3f-cf14-4195-ad2d-5a98f582ac70.mp4
 
 
 Analisa : <br />
@@ -57,9 +60,7 @@ Percobaan kali ini menghasilkan data ketika sensor disentuh maka akan mengirimka
 d) Lampu LED akan menyala Running saat sensor disentuh <br />
 
 
-
-https://user-images.githubusercontent.com/121251478/209265942-5b888906-8415-429a-96a7-e031ec9f65b8.mp4
-
+https://user-images.githubusercontent.com/121251478/209267852-b4cec21d-9ea7-4a6f-943a-158935a5acbd.mp4
 
 
 Analisa : <br />
@@ -71,7 +72,7 @@ Pada Percobaan kali ini digunakan sensor suhu dan kelembapan DHT 11 yang dapat m
 rangkaian diatas kemudian ditambah buzzer yang akan menyala saat sensor membaca suhu 30 derajat celcius dan 3 buah LED yang akan menyala running saat suhu dibawah 30 derajat celcius <br />
 
 
-https://user-images.githubusercontent.com/121251478/209265960-b280b5bf-4671-4dc7-b763-9e6522d22cea.mp4
+https://user-images.githubusercontent.com/121251478/209267885-df8874d1-d4ee-4b1f-84e9-be683c4937cc.mp4
 
 
 Analisa : <br />
